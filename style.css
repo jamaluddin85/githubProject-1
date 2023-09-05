@@ -1,0 +1,9 @@
+*{magin:0; padding: 0}
+
+h1::first-letter{
+    text-transform: uppercase;
+    color: brown;
+    background-color: aqua;
+    padding: 2px 5px;
+    font-size: 39px;
+}
