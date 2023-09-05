@@ -1,4 +1,4 @@
-*{magin:0; padding: 0}
+*{margin:0; padding: 0}
 
 h1::first-letter{
     text-transform: uppercase;
@@ -6,4 +6,36 @@ h1::first-letter{
     background-color: aqua;
     padding: 2px 5px;
     font-size: 39px;
+    border-radius: 100%;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.header-sec,  .nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    justify-content: center;
+}
+.nav>a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.nav>a::first-letter{
+    color: brown;
+    font-weight: 800;
+    text-decoration:underline
+}
+
+.nav>a:hover::first-letter{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-decoration:none;
+    background-color:brown;
+    border-radius: 50%;
 }
